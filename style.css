@@ -59,4 +59,18 @@ nav li a {
     margin: auto;
     background-color: black;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+h2 {
+    line-height: .5em;
+    margin: 0;
+}
+
+h4 {
+    line-height: .5em;
+    margin: 0;
+}
+
