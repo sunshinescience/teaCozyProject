@@ -1,76 +1,138 @@
 body {
     background-color: black;
-    color: seashell;
-    font-family: 'Helvetica';
+    font-family: Helvetica, sans-serif;
     font-size: 22px;
-    text-align: center;
-    margin: 0;
-}
-
-.header {
-        width: 100%;
-        height: 69px;
-        display: block;
-        position: fixed;
-        top: 0;
-        border-bottom: 1px solid seashell;
-}
-
-.logo {
-    float: left;
-    height: 50px;
-    padding-left: 10px;
-}
-
-nav ul {
-    float: right;  
-    list-style-type: none;
-    height: 100%;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav li a {
-    height: 100%;
-    float: left;
-    padding: 0 20px;
-    text-decoration: underline;
     color: seashell;
-}
+    margin-left: 0;
+    opacity: 0.9;
+  }
+  
+  header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    margin: 0;
+  }
 
-#mission {
+  #logoImg {
+    padding-left: 10px;
+  }
 
-}
+  nav {
+    
+    float: right; 
+    color: seashell;
+  }
 
-.missionContainer {
-    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
-    background-repeat: none;
-    background-position: center;
+  ul li {
+    display: inline;
+    list-style: none;
+    text-decoration: underline;
+  }
+
+  a {
+    color: seashell;
+  }
+  
+  #sec1 {
     height: 700px;
-    max-width: 1200px;
-    margin: 69px auto 40px auto;
-    display: flex; 
-}
+    background-image: url("/Users/sunshineabbott/Desktop/teaCozyProject/images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 70px;
+  }
 
-.textOver {
-    margin: auto;
+  .mission {
+    width: 100vw;
     background-color: black;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    position: relative;
+    top: 50%;
+  }
+
+  .missionText {
+    text-align: center;
+    padding-top: .5px;
+  }
+
+  #missionTitle {
+    font-size: 24px;
+    line-height: 0.5;
+    margin-bottom:-5px; /* Reducing the space betwween this h2 text and the text below it*/
+    padding-top: 10px;
+  }
+
+  #missionStatement {
+    font-size: 16px;
+    line-height: 2.5;
+    margin-top:-70px; /* Reducing the space betwween this h4 text and the text above it*/
+  }
+
+  #sec2 {
+    text-align: center; /* Text did not center until I placed this in the parent ID*/
+    margin-bottom: 70px;
+  }
+
+  .steepingTxt {
+    margin-top: -60px; /* `the h4 and h2 elements were too far apart, so I'm using this to bring them closer*/
+  }
+
+div.gallery {
+  /* float: center; */
+  display: flex;
+  flex-wrap: wrap; /* Wrapped images so that they fit the way they are meant to */
+  justify-content: center; /* The remaining space will be around all items, with all items stuck together */
+  
 }
 
-h2 {
-    line-height: .5em;
-    margin: 0;
+div.desc {
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: -10px;
+  margin-top:-20px;
 }
 
-h4 {
-    line-height: .5em;
-    margin: 0;
+#sec3 {
+  height: 500px;
+  background-image: url("images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 70px;
 }
+
+#locationTitle {
+  text-align: center;
+}
+
+.location {
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+#locale {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+#addy {
+ padding-top: 5px;
+}
+
+#allLocations {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 210px;
+}
+
+#sec4 {
+  height: 200px;
+  text-align: center; 
+}
+
+footer {
+  float: left;
+  margin-left: 20px;
+}
+
 
