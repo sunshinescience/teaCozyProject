@@ -35,7 +35,7 @@ body {
   
   #sec1 {
     height: 700px;
-    background-image: url("/Users/sunshineabbott/Desktop/teaCozyProject/images/img-mission-background.jpg");
+    background-image: url("images/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 70px;
@@ -91,7 +91,7 @@ div.desc {
 }
 
 #sec3 {
-  height: 500px;
+  height: 700px;
   background-image: url("images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
